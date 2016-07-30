@@ -1,0 +1,129 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+header {
+	text-align: right;
+}
+
+.landing {
+	/*background: url("http://upload.wikimedia.org/wikipedia/commons/8/86/Jefferson_Park_in_Chicago.JPG") no-repeat top center fixed;*/
+ 	background-size: cover;
+ 	text-align: right;
+	height: 500px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	z-index: 1;
+}
+
+.header_nav {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+	background: transparent;
+}
+
+.header_nav ul {
+    display: inline-block;
+}
+
+#header_nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header_nav_list li {
+    float: left;
+}
+
+#header_nav_list li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#header_nav_list li a:hover {
+	color: blue;
+}
+
+
+.container {
+	white-space: nowrap;
+	width: 100%;
+}
+
+#products_one {
+	display: block;
+}
+
+#products_one_left {
+	white-space: normal;
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#products_one_right {
+	white-space: normal;
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+	text-align: center;
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
