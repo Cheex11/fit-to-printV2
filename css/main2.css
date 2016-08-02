@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.intro {
+	height: 100%;
+	white-space: nowrap;
+}
+
+.intro_row {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+
+.intro_column {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	display: block;
+	float: left;
+	height: 100%;
+	width: 12.5%;
+	background-color: red;
+	border:1px solid black;
+}
+
+
+
+@media(max-width:767px) {
+	.intro_row {
+		display: block;
+		height: 50%;
+		width: 100%;
+		background-color: black;
+	}
+
+	.intro_column {
+		width: 25%;
+	}
+}
+
+
+
+#logopic {
+	position: relative;
+	margin: auto
+	width: 20%;
+    /*transform: translate(-50%, -50%);  If were fixed */
+}

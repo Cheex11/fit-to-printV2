@@ -4,33 +4,67 @@
 		<title>fit to print</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/main.js"></script>
 	</head>
 
 	<body>
 		<header>
-			<div class="header_nav">
-				<ul id="header_nav_list">
-					<li><a href=''>about</a></li>
-					<li><a href=''>work</a></li>
-					<li><a href=''>contact</a></li>
-				</ul>
+			<div id='header_bar'>
+				<div id='header_logo'>
+					<!--<img src='img/logo_small.png'>-->
+				</div>
+				<div id='header_left'>
+					fit to print
+				</div>
+				<div id="header_nav">
+					<ul id="header_nav_list">
+						<li><a href=''>about</a></li>
+						<li><a href=''>work</a></li>
+						<li><a href=''>contact</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class='landing'>
-			</div>
+
+				<div class='landing'>
+				</div>
 		</header>
 
 		<div class="container">
+			<div id='intro'>
+				<p class="intro-text">
+				    We are printing experts with over twenty five years of experience in the Dallas metroplex. We pride ourselves in understanding every aspect of the printing process and have experience with almost every form of printed material.
+
+				</p>
+			</div>
 			<div id='products_one'>
 				<div id='products_one_left'>
-					Logos
-					Letterhead
-					Newsletters
+					<h2>Logos:</h2>
+					<ul id='logos'>
+						<li>One</li>
+						<li>Two</li>
+						<li>Three</li>
+					</ul>
 				</div>
 				<div id='products_one_right'>
 					Sample
 				</div>
 			</div>
-		</div>
+			<section id='contact'>
+				<div id="svg_holder">
+					<svg height="100%" width="100%" viewBox="0 0 100 100"  preserveAspectRatio="none">
+				   		<path class='svg_triangle' d="M0 0 L100 0 L50 100 Z" />
+					</svg>
+				</div>
+				<div id='contact_content'>
+					<h3 id='contact_cta'>get in touch</h3>
+					contact content
+				</div>
 
+			</section>
+		</div>
 	</body>
+
+	<footer>
+		STUFF GOES HERE
+	</footer>
 </html>
