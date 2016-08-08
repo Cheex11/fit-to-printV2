@@ -15,6 +15,10 @@ h1 {
 	padding-top: 0px;
 	margin-top: 0px;
 }
+h2 {
+	padding-top: 0px;
+	margin-top: 0px;
+}
 
 .top_menu {
 	position: absolute;
@@ -107,10 +111,10 @@ h1 {
 	height: 100%;
 	white-space: nowrap;
 	background-image: url("../img/laura.jpg");
+	background-size:cover;
+	background-position:center center;
 	background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
-    background-size: 100% 100%;
     text-align: center;
 }
 
@@ -207,6 +211,15 @@ h1 {
 	height: 350px;
 }
 
+#dallas {
+	height: 400px;
+	background-image: url("../img/weknodal.jpg");
+	background-size:cover;
+	background-position:center center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 #portfolio {
 	text-align: center;
 	padding: 5%;
@@ -214,6 +227,13 @@ h1 {
 	height: 350px;
 }
 
+#dallas_text {
+	font-size: 50px;
+	color: white;
+	position: relative;
+	top: 50px;
+	left: 20%;
+}
 
 @media(max-width:767px) {
 	.intro_row {
