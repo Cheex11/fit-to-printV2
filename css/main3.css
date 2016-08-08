@@ -186,12 +186,32 @@ h1 {
 	height: 400px;
 	background-color: #00457c;
 	text-align: middle;
+	color: white;
 }
 
 #contact_cta {
 	font-size: 28px;
 	padding-top: 50px;
 	margin-top: 0px;
+}
+
+#about {
+	text-align: center;
+	padding: 5%;
+}
+
+#products {
+	text-align: center;
+	padding: 5%;
+	background-color: #00457c;
+	height: 350px;
+}
+
+#portfolio {
+	text-align: center;
+	padding: 5%;
+	background-color: white;
+	height: 350px;
 }
 
 
