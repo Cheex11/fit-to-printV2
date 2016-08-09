@@ -280,6 +280,10 @@ h2 {
     background-color: red;
 }
 
+.brick2 {
+    background-color: green;
+}
+
 .rock {
     width: 100px;
     height: 38px;
@@ -321,6 +325,8 @@ h2 {
 }
 .brick_hold {
 	height: 1000px;
+	background-color: black;
+	margin-bottom: 2px;
 }
 
 @media(max-width:767px) {

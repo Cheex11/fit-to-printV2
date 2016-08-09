@@ -88,7 +88,8 @@ function parallax(scrollTop) {
                 .css({
                     position: 'fixed',
                     top: pos+'px',
-                    left: '50%',
+                    left: '25%',
+                    display: 'block',
                     marginLeft: -(parallaxElements[id].width/2) +'px'
                 });
 
@@ -100,18 +101,19 @@ function parallax(scrollTop) {
                     position: 'relative',
                     top: (parallaxElements[id].stop-parallaxElements[id].start)+'px',
                     left: 'auto',
-                    marginLeft: 'auto'
+                    marginLeft: 'auto',
+                    display: 'none'
                 });
 
         } else if (viewportOffsetBottom < parallaxElements[id].start) {
             // scrolled up back past the start value, reset position
-            console.log('topisset')
             $(parallaxElements[id].elm)
                 .css({
                     position: 'relative',
                     top: 0,
                     left: 'auto',
-                    marginLeft: 'auto'
+                    marginLeft: 'auto',
+                    display: 'none'
                 });
 
         }
