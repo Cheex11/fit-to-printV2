@@ -59,7 +59,8 @@ $( document ).ready(function() {
 	            initialOffsetY: $elm.offset().top,
 	            height: $elm.height(),
 	            width: $elm.outerWidth(),
-	            top: $elm.position().top
+	            top: $elm.position().top,
+	            type: $elm.data('use')
 	        };
 
 	        console.log(parallaxElements);
@@ -77,21 +78,34 @@ function parallax(scrollTop) {
         // distance of element from bottom of viewport
         var viewportOffsetBottom = windowHeight - viewportOffsetTop;
 
+
         if ((viewportOffsetBottom >= parallaxElements[id].start) && (viewportOffsetBottom <= parallaxElements[id].stop)) {
             // element is now active, fix the position so when we scroll it stays fixed
             var speedMultiplier = parallaxElements[id].speed || 1;
             var pos = (windowHeight - parallaxElements[id].start);
 
-            // console.log($(parallaxElements[id].elm));
 
-            $(parallaxElements[id].elm)
-                .css({
-                    position: 'fixed',
-                    top: pos+'px',
-                    left: '25%',
-                    display: 'block',
-                    marginLeft: -(parallaxElements[id].width/2) +'px'
-                });
+            if (parallaxElements[id].type == "section_text") {
+            	console.log('hello hello hello')
+            	$(parallaxElements[id].elm)
+            	    .css({
+            	        position: 'fixed',
+            	        top: pos+'px',
+            	        // left: '15%',
+            	        // display: 'block',
+            	        // marginLeft: -(parallaxElements[id].width/2) +'px'
+            	    });
+            } else {
+            	$(parallaxElements[id].elm)
+            	    .css({
+            	        position: 'fixed',
+            	        top: pos+'px',
+            	        left: '25%',
+            	        // display: 'block',
+            	        // marginLeft: -(parallaxElements[id].width/2) +'px'
+            	    });
+            }
+
 
         } else if (viewportOffsetBottom > parallaxElements[id].stop) {
             // scrolled past the stop value, make position relative again
@@ -101,8 +115,8 @@ function parallax(scrollTop) {
                     position: 'relative',
                     top: (parallaxElements[id].stop-parallaxElements[id].start)+'px',
                     left: 'auto',
-                    marginLeft: 'auto',
-                    display: 'none'
+                    // marginLeft: 'auto',
+                    // display: 'none'
                 });
 
         } else if (viewportOffsetBottom < parallaxElements[id].start) {
@@ -112,8 +126,8 @@ function parallax(scrollTop) {
                     position: 'relative',
                     top: 0,
                     left: 'auto',
-                    marginLeft: 'auto',
-                    display: 'none'
+                    // marginLeft: 'auto',
+                    // display: 'none'
                 });
 
         }

@@ -221,6 +221,27 @@ h2 {
     background-attachment: fixed;
 }
 
+#dallas_text {
+	display: inline-block;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	top: 50px;
+}
+
+#dallas_text_buffer {
+	width: 20%;
+	display: inline-block;
+	height: 100%;
+}
+
+#dallas_text_holder {
+	display: inline-block;
+	z-index: 1000;
+	width: 70%;
+	vertical-align: top;
+}
+
 #portfolio {
 	white-space: nowrap;
 	text-align: center;
@@ -241,7 +262,7 @@ h2 {
 	height: 100%;
 	/*border:1px solid black;*/
 	float: left;
-	width: 25%;
+	width: 12.5%;
 	display: inline-block;
 }
 
@@ -260,13 +281,6 @@ h2 {
 	height: 60%;
 }
 
-#dallas_text {
-	font-size: 50px;
-	color: white;
-	position: relative;
-	top: 50px;
-	left: 20%;
-}
 
 .brick {
     width: 100px;
