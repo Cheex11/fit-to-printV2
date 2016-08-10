@@ -19,6 +19,7 @@ h1 {
 h2 {
 	padding-top: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .top_menu {
@@ -249,9 +250,62 @@ h2 {
 	height: 600px;
 }
 
+.portfolio_square {
+	position: relative;
+	display: block;
+	margin-top: 20px;
+	width: 100%;
+	height: 400px;
+	white-space: nowrap;
+	background-color: yellow;
+}
+
+.portfolio_square_header {
+	position: absolute;
+	top:0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 900;
+}
+.portfolio_square_header h2 {
+	margin-bottom: 0px;
+}
+
+.portfolio_square_left {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio_square_right {
+	display: inline-block;
+	white-space: normal;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio_square_thumbnail_row {
+	height: 30%;
+	margin-top: 5px;
+	background-color: black;
+}
+
+.portfolio_square_thumbnail {
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	background-color: silver;
+}
+
+.portfolio_square_holder {
+  /*height: 100%;*/
+  top: 50%;
+  /*transform: translateY(-50%);*/
+}
+
 .portfolio_row {
 	display: block;
-	height: 20%;
+	height: 40%;
 }
 
 .portfolio_item {

@@ -2,49 +2,118 @@
 <html>
 	<head>
 		<style>
-			h1 {
-				color: red;
+			html{
+			    height: 100%;
+			    width: 100%;
 			}
 
-			.big_div {
-				width: 100%;
+			body{
+			    margin: 0px;
+			    padding: 0px;
+			    height: 100%;
+			    width: 100%;
+			    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+			}
+			h2 {
+				padding-top: 0px;
+				margin-top: 0px;
+			}
+
+			.portfolio {
+				white-space: nowrap;
 				background-color: black;
-				height: 200px;
+				height: 800px;
+				width: 100%;
+
 			}
-			.holder {
-				font-size: 0px;
-				display: block;
+			.portfolio_square_header {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				color: red;
+				transform: translateX(-50%);
+				z-index: 50;
 			}
-			.holder_left {
-				font-size: 20px;
+			.portfolio_square {
 				display: inline-block;
-				height: 100%;
+				*display:inline;/*for IE 7 */
+				*zoom:1;/*for IE 7 */
 				width: 50%;
+				height: 500px;
+			}
+			.portfolio_square_left {
 				background-color: white;
+  				position: relative;
 			}
-			.holder_right {
-				font-size: 20px;
+			.portfolio_square_right {
+				background-color: silver;
+			}
+			.portfolio_square_holder {
+				position: absolute;
+				height: 80%;
+				width: 100%;
+			    top: 50%;
+			  	transform: translateY(-50%);
+			}
+			.portfolio_square_thumbnail_row {
+				height: 35%;
+				margin-top: 5%;
+				text-align: center;
+			}
+			.portfolio_square_thumbnail {
 				display: inline-block;
+				width: 30%;
 				height: 100%;
-				width: 50%;
-				background-color: green;
+			}
+			.img-responsive {
+				max-height: 100%;
+				max-width: 100%;
 			}
 		</style>
 	</head>
 
 	<body>
-		<h1>Hello</h1>
-
-		<div class='big_div'>
-			<div class='holder'>
-				<div class="holder_left">hold</div>
-				<div class="holder_right">text</div>
-
+ 		<div class="portfolio">
+			<div class='portfolio_square_header'>
+				<h2>Logos</h2>
 			</div>
 
+			<div class='portfolio_square portfolio_square_left'>
+				<div class='portfolio_square_holder'>
+					<div class='portfolio_square_thumbnail_row'>
+						<div class='portfolio_square_thumbnail'>
+							<img class="img-responsive" src="img/thumbnails/AmeriDoc.jpg" alt="" />
+						</div>
+						<div class='portfolio_square_thumbnail'>
+							<img class="img-responsive" src="img/thumbnails/AmeriDoc.jpg" alt="" />
+						</div>
+						<div class='portfolio_square_thumbnail'>
+							<img class="img-responsive" src="img/thumbnails/AmeriDoc.jpg" alt="" />
+						</div>
+					</div>
+					<div class='portfolio_square_thumbnail_row'>
+						<div class='portfolio_square_thumbnail'>
+							<img class="img-responsive" src="img/thumbnails/AmeriDoc.jpg" alt="" />
+						</div>
+						<div class='portfolio_square_thumbnail'>
+							<img class="img-responsive" src="img/thumbnails/AmeriDoc.jpg" alt="" />
+						</div>
+						<div class='portfolio_square_thumbnail'>
+							<img class="img-responsive" src="img/thumbnails/AmeriDoc.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				<!-- <div class='portfolio_square_holder'>
+					<div class='portfolio_square_thumbnail_row'>
+						<div class='portfolio_square_thumbnail'>
+						</div>
+					</div>
+				</div> -->
+			</div>
+
+			<div class='portfolio_square portfolio_square_right'>
+			</div>
 		</div>
-
-
 
 	</body>
 
