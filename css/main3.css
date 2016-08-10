@@ -191,8 +191,21 @@ h2 {
 	width: 100%;
 	height: 400px;
 	background-color: #00457c;
-	text-align: middle;
+	text-align: center;
 	color: white;
+}
+
+.contact_column {
+	display: inline-block;
+	width: 30%;
+}
+
+.contact_column h4 {
+	color: rgba(255,255,255,.5);
+	font-size: 20px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-weight: 100;
 }
 
 #contact_cta {
@@ -292,6 +305,8 @@ h2 {
 			}
 			.portfolio_square_thumbnail {
 				display: inline-block;
+				float: left;
+				padding: 5px;
 				width: 30%;
 				height: 100%;
 			}
@@ -299,6 +314,17 @@ h2 {
 				max-height: 100%;
 				max-width: 100%;
 			}
+
+
+@media(max-width:767px) {
+	.portfolio_square_thumbnail {
+		display: inline-block;
+	    float: left;
+	    padding: 5px;
+	    width: 40%;
+	    height: 50%;
+	}
+}
 
 /*
 #portfolio {
@@ -465,6 +491,11 @@ h2 {
 
 	.intro_column {
 		width: 25%;
+	}
+
+	.contact_column {
+		display: block;
+		width: 100%;
 	}
 }
 
