@@ -1,0 +1,54 @@
+<style>
+	html{
+	    height: 100%;
+	    width: 100%;
+	}
+
+	body{
+	    margin: 0px;
+	    padding: 0px;
+	    height: 100%;
+	    width: 100%;
+	    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	    overflow-x: hidden ! important;
+	}
+	.top-menu {
+		position: absolute;
+		width: 100%;
+		display: block;
+		white-space: nowrap;
+		background-color: red;
+	}
+	.top-menu-inner {
+		display: inline-block;
+		width: 50%;
+		height: 75px;
+	}
+	#top-menu-right {
+		text-align: right;
+	}
+	#inner-inner {
+		position: relative;
+		top: 50%;
+    	text-align: center;
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+</style>
+
+
+<body>
+
+<div class="top-menu">
+	<div class="top-menu-inner" id="top-menu-left">
+		<div id='inner-inner'>LEFT</div>
+	</div>
+
+	<div class="top-menu-inner" id="top-menu-right">
+		<div id='inner-inner'>RIGHT</div>
+	</div>
+
+</div>
+
+</body>
