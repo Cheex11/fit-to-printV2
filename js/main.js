@@ -1,4 +1,14 @@
 $( document ).ready(function() {
+	var waypoints = $('.wp1').waypoint({
+	  handler: function(direction) {
+	    $('.wp1').addClass('animated fadeInLeft')
+	  },
+	    offset: '60%'
+	  })
+});
+
+
+$( document ).ready(function() {
 	$(document).scroll(function() {
 	    console.log($(document).scrollTop());
 	})

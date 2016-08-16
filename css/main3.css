@@ -123,9 +123,12 @@ h2 {
 .large_copy	{
 	color: white;
 	padding-bottom: 0px;
+	font-size: 20px;
+	margin-bottom: 0px;
 }
 .small_copy {
 	color: white;
+	margin-top: 5px;
 }
 
 .brand-heading {
@@ -217,6 +220,7 @@ h2 {
 #about {
 	text-align: center;
 	padding: 5%;
+	color: #00457c;
 }
 
 #products {
@@ -236,7 +240,7 @@ h2 {
 }
 
 #dallas_text {
-	display: inline-block;
+
 	font-size: 50px;
 	color: white;
 	position: relative;
@@ -508,3 +512,13 @@ h2 {
 	max-width: 50%;
     /*transform: translate(-50%, -50%);  If were fixed */
 }
+
+
+
+
+
+/*Waypoints*/
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
