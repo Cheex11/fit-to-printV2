@@ -1,0 +1,509 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	height: 100%;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3,
+h4 {
+	margin-top: 0;
+}
+
+h4 {
+	margin-bottom: .4em;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+	line-height: 0;
+	position: relative;
+}
+
+figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1em;
+	background: rgba(19,43,102, .85);
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+	margin: 0;
+}
+
+.main-nav {
+	margin-top: 5px;
+}
+
+	.name a,
+	.main-nav a {
+		display: block;
+		text-align: center;
+		padding: 10px 15px;
+	}
+
+	.main-nav a {
+		font-size: .95em;
+		color: #7b0040;
+		text-transform: lowercase;
+	}
+
+	.main-nav a:hover {
+		color: #093a58;
+	}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: white;
+}
+
+.banner,
+.main-footer {
+	text-align: center;
+}
+
+.banner {
+	display: block;
+	padding: 3.2em 0;
+	margin-bottom: 60px;
+	height: 100%;
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+}
+
+.icon-location {
+	width: 35px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	z-index: 2;
+}
+.brand-heading {
+	display: none;
+}
+.landing {
+		position: relative;
+		height: 100%;
+		/*background-color: #00457c;*/
+		background-position:center center;
+		background-repeat: no-repeat;
+	    background-attachment: fixed;
+}
+
+.large_copy {
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#intro_bottom_topper {
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 10%;
+	background-color: #00457c;
+	vertical-align: middle;
+}
+
+#intro_bottom {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 5%;
+	background-color: rgba(255,255,255,.7);
+	z-index: 999;
+}
+
+#intro_bottom {
+	display: none;
+}
+
+#about {
+	text-align: center;
+	padding: 5%;
+	color: #00457c;
+}
+
+#products {
+	text-align: center;
+	padding: 5%;
+	background-color: #00457c;
+	height: 350px;
+}
+
+#products h4 {
+	color: white;
+}
+
+
+.products_container {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.products_inner {
+	display: inline-block;
+	width: 30%;
+	padding: 1em;
+}
+
+#dallas {
+	position: relative;
+	height: 400px;
+	background-image: url("../img/weknodal.jpg");
+	background-size:cover;
+	background-position:center center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#dallas_text {
+	color: white;
+	position: absolute;
+	top: 25%;
+}
+
+					.portfolio {
+						position: relative;
+						white-space: nowrap;
+						height: 1800px;
+						width: 100%;
+					}
+					.portfolio_section {
+						height: 420px;
+						width: 100%;
+						display: block;
+						position: relative;
+					}
+
+					.portfolio_square_header {
+						white-space: normal;
+						position: absolute;
+						font-size: 15px;
+						width: 100%;
+						top: 10px;
+						text-align: center;
+						z-index: 50;
+					}
+					.portfolio_square {
+						display: inline-block;
+						*display:inline;/*for IE 7 */
+						*zoom:1;/*for IE 7 */
+						width: 50%;
+						height: 100%;
+		  				position: relative;
+					}
+					.portfolio_square_thumbs {
+						background-color: white;
+					}
+					.portfolio_square_show {
+						width: 50%;
+						height: 100%;
+					}
+					.hovered-selection {
+						position: absolute;
+						width: 90%;
+						height: 60%;
+						top: 20%;
+						left: 0;
+						right: 0;
+						margin-left: auto;
+						margin-right: auto;
+
+							background-size:fill;
+							background-position:center center;
+							background-repeat: no-repeat;
+
+					}
+					.portfolio_square_holder {
+						position: absolute;
+						width: 100%;
+					    top: 50%;
+					  	transform: translateY(-50%);
+					}
+					.portfolio_square_thumbnail_row {
+						height: 35%;
+						margin-top: 5%;
+						text-align: center;
+					}
+					.portfolio_square_thumbnail {
+						display: inline-block;
+						float: left;
+						padding: 5px;
+						width: 50%;
+						height: 100%;
+					}
+					.img-responsive {
+						max-height: 100%;
+						max-width: 100%;
+					}
+
+#svg_holder {
+	height: 80px;
+	background-color: #00457c;
+}
+
+.svg_triangle {
+	fill: white;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact_content {
+	display: block;
+	width: 100%;
+	height: 400px;
+	background-color: #00457c;
+	text-align: center;
+	color: white;
+}
+
+.contact_column {
+	display: inline-block;
+	width: 30%;
+}
+
+.contact_column h4 {
+	color: rgba(255,255,255,.5);
+	font-size: 20px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+
+#contact_cta {
+	font-size: 28px;
+	padding-top: 50px;
+	margin-top: 0px;
+	color: white;
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 600px) {
+
+	body {
+		padding-top: 68px;
+	}
+
+	#intro_bottom {
+		display: block;
+	}
+
+
+	#intro_bottom_topper {
+		color: white;
+		position: absolute;
+		bottom: 5%;
+		width: 100%;
+		height: 10%;
+		background-color: #00457c;
+		vertical-align: middle;
+	}
+
+	.brand-heading {
+		display: block;
+	}
+	.logo-heading {
+		display: none;
+	}
+
+	.landing {
+			position: relative;
+			height: 100%;
+			background-image: url("../img/laura.jpg");
+			background-size:cover;
+			background-position:center center;
+			background-repeat: no-repeat;
+		    background-attachment: fixed;
+	}
+
+							.portfolio_square_header {
+								position: absolute;
+								font-size: 25px;
+								top: 10px;
+								left: 50%;
+								transform: translateX(-50%);
+								z-index: 50;
+							}
+							.portfolio_square {
+								display: inline-block;
+								*display:inline;/*for IE 7 */
+								*zoom:1;/*for IE 7 */
+								width: 50%;
+								height: 100%;
+				  				position: relative;
+							}
+							.portfolio_square_holder {
+								position: absolute;
+								height: 80%;
+								width: 100%;
+							    top: 50%;
+							  	transform: translateY(-50%);
+							}
+							.portfolio_square_thumbnail_row {
+								height: 35%;
+								margin-top: 15%;
+								text-align: center;
+							}
+							.portfolio_square_thumbnail {
+								display: inline-block;
+								float: left;
+								padding: 5px;
+								width: 30%;
+								height: 100%;
+							}
+
+
+	.brand-heading {
+		color: white;
+		font-size: 48px;
+		padding: 0px;
+		position: relative;
+		top: 25%;
+	}
+
+	#logopic {
+		position: relative;
+		margin: auto;
+		left: -20%;
+		max-width: 50%;
+	}
+
+	.main-header {
+		position: fixed;
+		background: #fff;
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+	}
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.name,
+	.col {
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+
+
+}
+
+
+/*Waypoints*/
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
