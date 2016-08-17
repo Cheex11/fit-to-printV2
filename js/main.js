@@ -14,6 +14,6 @@ $( document ).ready(function() {
 		// console.log($(this).closest('.portfolio_section').find('.hovered-selection'));
 		img = $(this).attr("src");
 		console.log(img);
-		$(this).closest('.portfolio_section').find('.hovered-selection').css('background-image','url(' + img + ')');
+		$(this).closest('.portfolio_section').find('.portfolio_square_show').css('background-image','url(' + img + ')');
 	});
 });

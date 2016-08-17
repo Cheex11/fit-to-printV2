@@ -29,6 +29,10 @@ a {
 	color: #093a58;
 }
 
+h2 {
+	margin-bottom: 0;
+}
+
 h2,
 h3,
 h4 {
@@ -249,63 +253,43 @@ figcaption {
 						position: relative;
 					}
 
+					.portfolio_square_header h2 {
+						padding-top: 20px;
+					}
 					.portfolio_square_header {
+						display: block;
 						white-space: normal;
-						position: absolute;
 						font-size: 15px;
 						width: 100%;
-						top: 10px;
+						height: 15%;
 						text-align: center;
 						z-index: 50;
 					}
-					.portfolio_square {
-						display: inline-block;
-						*display:inline;/*for IE 7 */
-						*zoom:1;/*for IE 7 */
-						width: 50%;
-						height: 100%;
-		  				position: relative;
-					}
+
 					.portfolio_square_thumbs {
-						background-color: white;
+						position: absolute;
+						bottom: 0;
 					}
+
 					.portfolio_square_show {
-						width: 50%;
-						height: 100%;
-					}
-					.hovered-selection {
 						position: absolute;
-						width: 90%;
-						height: 60%;
-						top: 20%;
-						left: 0;
-						right: 0;
-						margin-left: auto;
-						margin-right: auto;
-
-							background-size:fill;
-							background-position:center center;
-							background-repeat: no-repeat;
-
-					}
-					.portfolio_square_holder {
-						position: absolute;
+						top: 15%;
+						height: 65%;
 						width: 100%;
-					    top: 50%;
-					  	transform: translateY(-50%);
+
+						background-size: center;
+						background-position:center center;
+						background-repeat: no-repeat;
 					}
-					.portfolio_square_thumbnail_row {
-						height: 35%;
-						margin-top: 5%;
-						text-align: center;
-					}
+
 					.portfolio_square_thumbnail {
 						display: inline-block;
+						max-width: 16%;
+						padding-left: 1%;
 						float: left;
-						padding: 5px;
-						width: 50%;
-						height: 100%;
 					}
+
+
 					.img-responsive {
 						max-height: 100%;
 						max-width: 100%;
@@ -396,41 +380,48 @@ figcaption {
 		    background-attachment: fixed;
 	}
 
-							.portfolio_square_header {
-								position: absolute;
-								font-size: 25px;
-								top: 10px;
-								left: 50%;
-								transform: translateX(-50%);
-								z-index: 50;
-							}
-							.portfolio_square {
-								display: inline-block;
-								*display:inline;/*for IE 7 */
-								*zoom:1;/*for IE 7 */
-								width: 50%;
-								height: 100%;
-				  				position: relative;
-							}
-							.portfolio_square_holder {
-								position: absolute;
-								height: 80%;
-								width: 100%;
-							    top: 50%;
-							  	transform: translateY(-50%);
-							}
-							.portfolio_square_thumbnail_row {
-								height: 35%;
-								margin-top: 15%;
-								text-align: center;
-							}
-							.portfolio_square_thumbnail {
-								display: inline-block;
-								float: left;
-								padding: 5px;
-								width: 30%;
-								height: 100%;
-							}
+												.portfolio_square_header h2 {
+													padding-top: 20px;
+												}
+												.portfolio_square_header {
+													display: block;
+													white-space: normal;
+													font-size: 15px;
+													width: 100%;
+													height: 15%;
+													text-align: center;
+													z-index: 50;
+												}
+												.portfolio_square {
+													vertical-align: top;
+													display: inline-block;
+													*display:inline;/*for IE 7 */
+													*zoom:1;/*for IE 7 */
+													width: 50%;
+													height: 85%;
+									  				position: relative;
+												}
+												.portfolio_square_thumbs {
+													background-color: white;
+												}
+												.portfolio_square_show {
+													width: 50%;
+													height: 85%;
+												}
+
+												.portfolio_square_holder {
+													position: absolute;
+													width: 100%;
+												    top: 50%;
+												  	transform: translateY(-50%);
+												}
+												.portfolio_square_thumbnail {
+													display: inline-block;
+													float: left;
+													padding: 5px;
+													max-width: 30%;
+												}
+
 
 
 	.brand-heading {
