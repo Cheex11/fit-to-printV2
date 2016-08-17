@@ -202,15 +202,15 @@ figcaption {
 
 #products {
 	text-align: center;
-	padding: 5%;
 	background-color: #00457c;
-	height: 350px;
+	height: 500px;
 }
 
 #products h4 {
 	color: white;
+	padding-top: 0px;
+	margin-top: 0px;
 }
-
 
 .products_container {
 	display: block;
@@ -220,9 +220,15 @@ figcaption {
 
 .products_inner {
 	display: inline-block;
-	width: 30%;
-	padding: 1em;
+	width: 100%;
+	height: 33.33%;
 }
+
+.products_image {
+	width: 120px;
+	height: 120px;
+}
+
 
 #dallas {
 	position: relative;
@@ -401,9 +407,6 @@ figcaption {
 													height: 85%;
 									  				position: relative;
 												}
-												.portfolio_square_thumbs {
-													background-color: white;
-												}
 												.portfolio_square_show {
 													width: 50%;
 													height: 85%;
@@ -422,6 +425,22 @@ figcaption {
 													max-width: 30%;
 												}
 
+
+
+	#products {
+		height: 300px;
+	}
+	.products_inner {
+		padding-top: 50px;
+		display: inline-block;
+		width: 33%;
+		height: 100%;
+	}
+
+	.products_image {
+		width: 120px;
+		height: 120px;
+	}
 
 
 	.brand-heading {

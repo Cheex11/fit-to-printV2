@@ -5,6 +5,14 @@ $( document ).ready(function() {
 	  },
 	    offset: '60%'
 	  })
+
+	$('.wp2').waypoint({
+	  handler: function(direction) {
+	    $('.wp2').addClass('animated fadeInUp')
+	  },
+	    offset: '60%'
+	  })
+
 });
 
 
