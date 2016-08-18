@@ -246,6 +246,19 @@ figcaption {
 	top: 25%;
 }
 
+.wp3 {
+	background-image: url("../img/thumbnails/AmeriDoc.jpg");
+}
+.wp4 {
+	background-image: url("../img/thumbnails/AmeriDoc.jpg");
+}
+.wp5 {
+	background-image: url("../img/thumbnails/AmeriDoc.jpg");
+}
+.wp6 {
+	background-image: url("../img/thumbnails/GardenDesign.jpg");
+}
+
 					.portfolio {
 						position: relative;
 						white-space: nowrap;
@@ -262,6 +275,7 @@ figcaption {
 					.portfolio_square_header h2 {
 						padding-top: 20px;
 					}
+
 					.portfolio_square_header {
 						display: block;
 						white-space: normal;
@@ -272,30 +286,10 @@ figcaption {
 						z-index: 50;
 					}
 
-					.portfolio_square_thumbs {
-						position: absolute;
-						bottom: 0;
-					}
-
-
-					.wp3 {
-						background-image: url("../img/thumbnails/AmeriDoc.jpg");
-					}
-					.wp4 {
-						background-image: url("../img/thumbnails/AmeriDoc.jpg");
-					}
-					.wp5 {
-						background-image: url("../img/thumbnails/AmeriDoc.jpg");
-					}
-					.wp6 {
-						background-image: url("../img/thumbnails/GardenDesign.jpg");
-					}
-
-
 					.portfolio_square_show {
 						position: absolute;
 						top: 15%;
-						height: 65%;
+						height: 60%;
 						width: 100%;
 
 						background-size: contain;
@@ -303,17 +297,36 @@ figcaption {
 						background-repeat: no-repeat;
 					}
 
+					.portfolio_square_thumbs {
+						position: absolute;
+						height: 20%;
+						width: 100%;
+						bottom: 0px;
+					}
+
+					.portfolio_square_thumbnail_row {
+						width: 100%;
+						height: 100%;
+						position: relative;
+					}
+
 					.portfolio_square_thumbnail {
 						display: inline-block;
-						max-width: 16%;
-						padding-left: 1%;
+						vertical-align: middle;
+						width: 16%;
+						height: 100%;
+						padding-left: 2%;
 						float: left;
+						position: relative;
 					}
 
 
 					.img-responsive {
 						max-height: 100%;
-						max-width: 100%;
+						max-width: 95%;
+						position: absolute;
+					    top:-100%; left:0; right: 0; bottom:-100%;
+					    margin: auto;
 					}
 
 
@@ -440,8 +453,9 @@ p {
 												.portfolio_square_thumbnail {
 													display: inline-block;
 													float: left;
+													height: 50%;
 													padding: 5px;
-													max-width: 30%;
+													width: 30%;
 												}
 
 
