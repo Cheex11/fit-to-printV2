@@ -277,13 +277,28 @@ figcaption {
 						bottom: 0;
 					}
 
+
+					.wp3 {
+						background-image: url("../img/thumbnails/AmeriDoc.jpg");
+					}
+					.wp4 {
+						background-image: url("../img/thumbnails/AmeriDoc.jpg");
+					}
+					.wp5 {
+						background-image: url("../img/thumbnails/AmeriDoc.jpg");
+					}
+					.wp6 {
+						background-image: url("../img/thumbnails/GardenDesign.jpg");
+					}
+
+
 					.portfolio_square_show {
 						position: absolute;
 						top: 15%;
 						height: 65%;
 						width: 100%;
 
-						background-size: center;
+						background-size: contain;
 						background-position:center center;
 						background-repeat: no-repeat;
 					}
@@ -301,6 +316,7 @@ figcaption {
 						max-width: 100%;
 					}
 
+
 #svg_holder {
 	height: 80px;
 	background-color: #00457c;
@@ -317,15 +333,14 @@ figcaption {
 #contact_content {
 	display: block;
 	width: 100%;
-	height: 400px;
 	background-color: #00457c;
 	text-align: center;
 	color: white;
 }
 
 .contact_column {
-	display: inline-block;
-	width: 30%;
+	width: 100%;
+	padding-bottom: 30px;
 }
 
 .contact_column h4 {
@@ -341,6 +356,10 @@ figcaption {
 	padding-top: 50px;
 	margin-top: 0px;
 	color: white;
+}
+
+p {
+	margin-bottom: 0px;
 }
 
 
@@ -433,7 +452,7 @@ figcaption {
 	.products_inner {
 		padding-top: 50px;
 		display: inline-block;
-		width: 33%;
+		width: 32%;
 		height: 100%;
 	}
 
@@ -444,11 +463,10 @@ figcaption {
 
 
 	.brand-heading {
-		color: white;
-		font-size: 48px;
-		padding: 0px;
 		position: relative;
-		top: 25%;
+		top: 12%;
+		left: 5%;
+		max-width: 75%;
 	}
 
 	#logopic {
@@ -490,6 +508,12 @@ figcaption {
 		font-size: 1.4em;
 	}
 
+	.contact_column {
+		display: inline-block;
+		width: 30%;
+		padding-bottom: 50px;
+	}
+
 	/* ---- Float clearfix ---- */
 
 	.clearfix::after {
@@ -513,7 +537,7 @@ figcaption {
 
 
 /*Waypoints*/
-.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
