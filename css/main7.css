@@ -48,6 +48,9 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 0px;
+}
 img {
     max-width: 100%;
 }
@@ -232,8 +235,42 @@ figcaption {
 
 #clients {
     height: 500px;
-    background-color: white;
+    background-color: green;
+    position: relative;
 }
+
+#clients_holder {
+    white-space: nowrap;
+    padding: 1em;
+    display: block;
+    background-color: red;
+    position: absolute;
+    bottom: 20%;
+    height: 200px;
+    width: 100%;
+}
+
+.client_box {
+    position: relative;
+    display: inline-block;
+    margin-right: 1%;
+    float: left;
+    width: 32%;
+    height: 100%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+#clients_header {
+    color: white;
+    position: absolute;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+}
+
 
 #dallas {
     position: relative;
@@ -376,9 +413,6 @@ figcaption {
     color: white;
 }
 
-p {
-    margin-bottom: 0px;
-}
 
 
 /* =================================
