@@ -329,7 +329,7 @@ figcaption {
 						max-height: 100%;
 						max-width: 95%;
 						position: absolute;
-					    top:-100%; left:0; right: 0; bottom:-100%;
+					    top: 100%; left:0; right: 0; bottom:100%;
 					    margin: auto;
 					}
 
@@ -452,6 +452,12 @@ p {
 												.portfolio_square_show {
 													width: 50%;
 													height: 85%;
+													/*background-color: green;*/
+												}
+												.portfolio_square_thumbs {
+													/*background-color: yellow;*/
+                                                    width: 50%;
+                                                    margin: 0 auto;
 												}
 
 												.portfolio_square_holder {
@@ -465,8 +471,25 @@ p {
 													float: left;
 													height: 48%;
 													padding: 5px;
-													width: 30%;
+													/*background-color: red;*/
+													width: 33%;
 													margin-bottom: 2%;
+												}
+
+												.portfolio_square_thumbnail_row {
+												    height: 70%;
+												    position: absolute;
+												    top: 50%; left: 50%;
+												    transform: translate(-50%,-50%);
+												    width: 100%;
+												}
+
+												.thumbnail_holder {
+													position: absolute;
+													height: 100%;
+													width: 100%;
+													display: flex;
+												    align-items: center;
 												}
 
 
