@@ -235,7 +235,6 @@ figcaption {
 
 #clients {
     height: 500px;
-    background-color: green;
     position: relative;
 }
 
@@ -248,6 +247,15 @@ figcaption {
     bottom: 20%;
     height: 200px;
     width: 100%;
+}
+
+#clients_text {
+    color: #093a58;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 48px;
+    top: 35%;
 }
 
 .client_box {
@@ -271,6 +279,14 @@ figcaption {
     text-align: center;
 }
 
+#bottom_holder_holder {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+#jssor_2 {
+    transform: rotateY(-180deg);
+}
 
 #dallas {
     position: relative;

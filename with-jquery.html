@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body style="padding:0px; margin:0px; background-color:#fff;font-family:Arial, sans-serif">
+
+    <!-- #region Jssor Slider Begin -->
+
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: http://www.jssor.com/demos/scrolling-logo-thumbnail-slider.slider -->
+
+    <!-- This demo works with jquery library -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider-21.1.5.mini.js"></script>
+    <!-- use jssor.slider-21.1.5.debug.js instead for debug -->
+    <script>
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $Idle: 0,
+              $AutoPlaySteps: 4000000,
+              $SlideDuration: 1600,
+              $SlideEasing: $Jease$.$Linear,
+              $PauseOnHover: 4,
+              $SlideWidth: 200,
+              $Cols: 7
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            var jssor_2_slider = new $JssorSlider$("jssor_2", jssor_1_options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 809);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+
+    <style>
+        #jssor_2 {
+            transform: rotateY(-180deg);
+        }
+    </style>
+
+
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 180px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 980px; height: 180px; overflow: hidden;">
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/amazon.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/android.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/bitly.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/blogger.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/dnn.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/drupal.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/ebay.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/facebook.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/google.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/ibm.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/ios.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/joomla.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/linkedin.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/mac.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/magento.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/pinterest.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/samsung.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/twitter.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/windows.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/wordpress.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/youtube.jpg" />
+            </div>
+            <a data-u="add" href="http://www.jssor.com/demos/scrolling-logo-thumbnail-slider.slider" style="display:none">Scrolling Logo Thumbnail Slider</a>
+
+        </div>
+    </div>
+
+    <div id="jssor_2" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 180px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/logos/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 980px; height: 180px; overflow: hidden;">
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/amazon.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/android.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/bitly.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/blogger.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/dnn.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/drupal.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/ebay.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/facebook.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/google.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/ibm.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/ios.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/joomla.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/linkedin.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/mac.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/magento.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/pinterest.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/samsung.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/twitter.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/windows.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/wordpress.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/logos/youtube.jpg" />
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- #endregion Jssor Slider End -->
+</body>
+</html>
