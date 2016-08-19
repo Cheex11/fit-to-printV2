@@ -3,7 +3,7 @@
 ==================================== */
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html{
@@ -12,61 +12,62 @@ html{
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
-	line-height: 1.6;
-	color: #3a3a3a;
-	height: 100%;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    color: #3a3a3a;
+    height: 100%;
 }
 
 p {
-	font-size: .95em;
-	margin-bottom: 1.8em;
+    font-size: .95em;
+    margin-bottom: 1.8em;
+    max-width: 900px;
 }
 
 h2,
 h3,
 a {
-	color: #093a58;
+    color: #093a58;
 }
 
 h2 {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 h2,
 h3,
 h4 {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 h4 {
-	margin-bottom: .4em;
+    margin-bottom: .4em;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 figure {
-	margin: 0;
-	line-height: 0;
-	position: relative;
+    margin: 0;
+    line-height: 0;
+    position: relative;
 }
 
 figcaption {
-	font-size: .9em;
-	line-height: 1.5;
-	color: #fff;
-	padding: 1em;
-	background: rgba(19,43,102, .85);
+    font-size: .9em;
+    line-height: 1.5;
+    color: #fff;
+    padding: 1em;
+    background: rgba(19,43,102, .85);
 
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* =================================
@@ -76,307 +77,307 @@ figcaption {
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.25em;
-	margin: 0;
+    font-size: 1.25em;
+    margin: 0;
 }
 
 .main-nav {
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
-	.name a,
-	.main-nav a {
-		display: block;
-		text-align: center;
-		padding: 10px 15px;
-	}
+    .name a,
+    .main-nav a {
+        display: block;
+        text-align: center;
+        padding: 10px 15px;
+    }
 
-	.main-nav a {
-		font-size: .95em;
-		color: #7b0040;
-		text-transform: lowercase;
-	}
+    .main-nav a {
+        font-size: .95em;
+        color: #7b0040;
+        text-transform: lowercase;
+    }
 
-	.main-nav a:hover {
-		color: #093a58;
-	}
+    .main-nav a:hover {
+        color: #093a58;
+    }
 
 /* ---- Layout Containers ---- */
 
 .main-header {
-	padding-top: .5em;
-	padding-bottom: .5em;
-	background-color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: white;
 }
 
 .banner,
 .main-footer {
-	text-align: center;
+    text-align: center;
 }
 
 .banner {
-	display: block;
-	padding: 3.2em 0;
-	margin-bottom: 60px;
-	height: 100%;
+    display: block;
+    padding: 3.2em 0;
+    margin-bottom: 60px;
+    height: 100%;
 }
 
 .col {
-	padding-right: 1em;
-	padding-left: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .main-footer {
-	background: #d9e4ea;
-	padding: 2em 0;
-	margin-top: 30px;
+    background: #d9e4ea;
+    padding: 2em 0;
+    margin-top: 30px;
 }
 
 /* ---- Page Elements ---- */
 
 .logo {
-	width: 190px;
+    width: 190px;
 }
 
 .headline {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .icon-location {
-	width: 35px;
-	position: absolute;
-	top: -15px;
-	right: -15px;
-	z-index: 2;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index: 2;
 }
 .brand-heading {
-	display: none;
+    display: none;
 }
 .landing {
-		position: relative;
-		height: 100%;
-		/*background-color: #00457c;*/
-		background-position:center center;
-		background-repeat: no-repeat;
-	    background-attachment: fixed;
+        position: relative;
+        height: 100%;
+        /*background-color: #00457c;*/
+        background-position:center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 
 .large_copy {
-	color: white;
-	width: 100%;
-	text-align: center;
-	font-size: 25px;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #intro_bottom_topper {
-	color: white;
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	height: 10%;
-	background-color: #00457c;
-	vertical-align: middle;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: #00457c;
+    vertical-align: middle;
 }
 
 #intro_bottom {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	height: 5%;
-	background-color: rgba(255,255,255,.7);
-	z-index: 999;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(255,255,255,.7);
+    z-index: 999;
 }
 
 #intro_bottom {
-	display: none;
+    display: none;
 }
 
 #about {
-	text-align: center;
-	padding: 5%;
-	color: #00457c;
+    text-align: center;
+    padding: 5%;
+    color: #00457c;
 }
 
 #products {
-	text-align: center;
-	background-color: #00457c;
-	height: 500px;
+    text-align: center;
+    background-color: #00457c;
+    height: 500px;
 }
 
 #products h4 {
-	color: white;
-	padding-top: 0px;
-	margin-top: 0px;
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .products_container {
-	display: block;
-	height: 100%;
-	width: 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 .products_inner {
-	display: inline-block;
-	width: 100%;
-	height: 33.33%;
+    display: inline-block;
+    width: 100%;
+    height: 33.33%;
 }
 
 .products_image {
-	width: 120px;
-	height: 120px;
+    width: 120px;
+    height: 120px;
 }
 
 #clients {
-	height: 500px;
-	background-color: white;
+    height: 500px;
+    background-color: white;
 }
 
 #dallas {
-	position: relative;
-	height: 400px;
-	background-image: url("../img/weknodal.jpg");
-	background-size:cover;
-	background-position:center center;
-	background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+    background-image: url("../img/weknodal.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 #dallas_text {
-	color: white;
-	position: absolute;
-	top: 25%;
+    color: white;
+    position: absolute;
+    top: 25%;
 }
 
 .wp3 {
-	background-image: url("../img/ftp/Logos/Zeto.jpg");
+    background-image: url("../img/ftp/Logos/Zeto.jpg");
 }
 .wp4 {
-	background-image: url("../img/ftp/BroFlyers/scur.jpg");
+    background-image: url("../img/ftp/BroFlyers/scur.jpg");
 }
 .wp5 {
-	background-image: url("../img/ftp/Newsletters/Flip.jpg");
+    background-image: url("../img/ftp/Newsletters/Flip.jpg");
 }
 .wp6 {
-	background-image: url("../img/ftp/Catalog/Parade.jpg");
+    background-image: url("../img/ftp/Catalog/Parade.jpg");
 }
 
-					.portfolio {
-						position: relative;
-						white-space: nowrap;
-						height: 2550px;
-						width: 100%;
-					}
-					.portfolio_section {
-						height: 500px;
-						width: 100%;
-						display: block;
-						position: relative;
-					}
+                    .portfolio {
+                        position: relative;
+                        white-space: nowrap;
+                        height: 2550px;
+                        width: 100%;
+                    }
+                    .portfolio_section {
+                        height: 500px;
+                        width: 100%;
+                        display: block;
+                        position: relative;
+                    }
 
-					.portfolio_square_header h2 {
-						padding-top: 20px;
-					}
+                    .portfolio_square_header h2 {
+                        padding-top: 20px;
+                    }
 
-					.portfolio_square_header {
-						display: block;
-						white-space: normal;
-						font-size: 15px;
-						width: 100%;
-						height: 15%;
-						text-align: center;
-						z-index: 50;
-					}
+                    .portfolio_square_header {
+                        display: block;
+                        white-space: normal;
+                        font-size: 15px;
+                        width: 100%;
+                        height: 15%;
+                        text-align: center;
+                        z-index: 50;
+                    }
 
-					.portfolio_square_show {
-						position: absolute;
-						top: 15%;
-						height: 60%;
-						width: 100%;
+                    .portfolio_square_show {
+                        position: absolute;
+                        top: 15%;
+                        height: 60%;
+                        width: 100%;
 
-						background-size: contain;
-						background-position:center center;
-						background-repeat: no-repeat;
-					}
+                        background-size: contain;
+                        background-position:center center;
+                        background-repeat: no-repeat;
+                    }
 
-					.portfolio_square_thumbs {
-						position: absolute;
-						height: 20%;
-						width: 100%;
-						bottom: 0px;
-					}
+                    .portfolio_square_thumbs {
+                        position: absolute;
+                        height: 20%;
+                        width: 100%;
+                        bottom: 0px;
+                    }
 
-					.portfolio_square_thumbnail_row {
-						width: 100%;
-						height: 100%;
-						position: relative;
-					}
+                    .portfolio_square_thumbnail_row {
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                    }
 
-					.portfolio_square_thumbnail {
-						display: inline-block;
-						vertical-align: middle;
-						width: 16%;
-						height: 100%;
-						padding-left: 2%;
-						float: left;
-						position: relative;
-					}
+                    .portfolio_square_thumbnail {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 16%;
+                        height: 100%;
+                        padding-left: 2%;
+                        float: left;
+                        position: relative;
+                    }
 
 
-					.img-responsive {
-						max-height: 100%;
-						max-width: 95%;
-						position: absolute;
-					    top: 100%; left:0; right: 0; bottom:100%;
-					    margin: auto;
-					}
+                    .img-responsive {
+                        max-height: 100%;
+                        max-width: 95%;
+                        position: absolute;
+                        top: 100%; left:0; right: 0; bottom:100%;
+                        margin: auto;
+                    }
 
 
 #svg_holder {
-	height: 80px;
-	background-color: #00457c;
+    height: 80px;
+    background-color: #00457c;
 }
 
 .svg_triangle {
-	fill: white;
+    fill: white;
 }
 
 #contact {
-	text-align: center;
+    text-align: center;
 }
 
 #contact_content {
-	display: block;
-	width: 100%;
-	background-color: #00457c;
-	text-align: center;
-	color: white;
+    display: block;
+    width: 100%;
+    background-color: #00457c;
+    text-align: center;
+    color: white;
 }
 
 .contact_column {
-	width: 100%;
-	padding-bottom: 30px;
+    width: 100%;
+    padding-bottom: 30px;
 }
 
 .contact_column h4 {
-	color: rgba(255,255,255,.5);
-	font-size: 20px;
-	padding-bottom: 0;
-	margin-bottom: 0;
-	font-weight: 100;
+    color: rgba(255,255,255,.5);
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: 100;
 }
 
 #contact_cta {
-	font-size: 28px;
-	padding-top: 50px;
-	margin-top: 0px;
-	color: white;
+    font-size: 28px;
+    padding-top: 50px;
+    margin-top: 0px;
+    color: white;
 }
 
 p {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -386,206 +387,206 @@ p {
 
 @media (min-width: 600px) {
 
-	body {
-		padding-top: 68px;
-	}
+    body {
+        padding-top: 68px;
+    }
 
-	#intro_bottom {
-		display: block;
-	}
-
-
-	#intro_bottom_topper {
-		color: white;
-		position: absolute;
-		bottom: 5%;
-		width: 100%;
-		height: 10%;
-		background-color: #00457c;
-		vertical-align: middle;
-	}
-
-	.brand-heading {
-		display: block;
-	}
-	.logo-heading {
-		display: none;
-	}
+    #intro_bottom {
+        display: block;
+    }
 
 
-	.main-nav a {
-		color: #00457c;
-	}
+    #intro_bottom_topper {
+        color: white;
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+        height: 10%;
+        background-color: #00457c;
+        vertical-align: middle;
+    }
 
-	.landing {
-			position: relative;
-			height: 100%;
-			background-image: url("../img/laura.jpg");
-			background-size:cover;
-			background-position:center center;
-			background-repeat: no-repeat;
-		    background-attachment: fixed;
-	}
+    .brand-heading {
+        display: block;
+    }
+    .logo-heading {
+        display: none;
+    }
 
-												.portfolio_square_header h2 {
-													padding-top: 20px;
-													font-size: 30px;
-												}
-												.portfolio_square_header {
-													display: block;
-													white-space: normal;
-													font-size: 15px;
-													width: 100%;
-													height: 15%;
-													text-align: center;
-													z-index: 50;
-												}
-												.portfolio_square {
-													vertical-align: top;
-													display: inline-block;
-													*display:inline;/*for IE 7 */
-													*zoom:1;/*for IE 7 */
-													width: 50%;
-													height: 85%;
-									  				position: relative;
-												}
-												.portfolio_square_show {
-													width: 50%;
-													height: 85%;
-													/*background-color: green;*/
-												}
-												.portfolio_square_thumbs {
-													/*background-color: yellow;*/
+
+    .main-nav a {
+        color: #00457c;
+    }
+
+    .landing {
+            position: relative;
+            height: 100%;
+            background-image: url("../img/laura.jpg");
+            background-size:cover;
+            background-position:center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+    }
+
+                                                .portfolio_square_header h2 {
+                                                    padding-top: 20px;
+                                                    font-size: 30px;
+                                                }
+                                                .portfolio_square_header {
+                                                    display: block;
+                                                    white-space: normal;
+                                                    font-size: 15px;
+                                                    width: 100%;
+                                                    height: 15%;
+                                                    text-align: center;
+                                                    z-index: 50;
+                                                }
+                                                .portfolio_square {
+                                                    vertical-align: top;
+                                                    display: inline-block;
+                                                    *display:inline;/*for IE 7 */
+                                                    *zoom:1;/*for IE 7 */
+                                                    width: 50%;
+                                                    height: 85%;
+                                                    position: relative;
+                                                }
+                                                .portfolio_square_show {
+                                                    width: 50%;
+                                                    height: 85%;
+                                                    /*background-color: green;*/
+                                                }
+                                                .portfolio_square_thumbs {
+                                                    /*background-color: yellow;*/
                                                     width: 50%;
                                                     margin: 0 auto;
-												}
+                                                }
 
-												.portfolio_square_holder {
-													position: absolute;
-													width: 100%;
-												    top: 50%;
-												  	transform: translateY(-50%);
-												}
-												.portfolio_square_thumbnail {
-													display: inline-block;
-													float: left;
-													height: 48%;
-													padding: 5px;
-													/*background-color: red;*/
-													width: 33%;
-													margin-bottom: 2%;
-												}
+                                                .portfolio_square_holder {
+                                                    position: absolute;
+                                                    width: 100%;
+                                                    top: 50%;
+                                                    transform: translateY(-50%);
+                                                }
+                                                .portfolio_square_thumbnail {
+                                                    display: inline-block;
+                                                    float: left;
+                                                    height: 48%;
+                                                    padding: 5px;
+                                                    /*background-color: red;*/
+                                                    width: 33%;
+                                                    margin-bottom: 2%;
+                                                }
 
-												.portfolio_square_thumbnail_row {
-												    height: 70%;
-												    position: absolute;
-												    top: 50%; left: 50%;
-												    transform: translate(-50%,-50%);
-												    width: 100%;
-												}
+                                                .portfolio_square_thumbnail_row {
+                                                    height: 70%;
+                                                    position: absolute;
+                                                    top: 50%; left: 50%;
+                                                    transform: translate(-50%,-50%);
+                                                    width: 100%;
+                                                }
 
-												.thumbnail_holder {
-													position: absolute;
-													height: 100%;
-													width: 100%;
-													display: flex;
-												    align-items: center;
-												}
-
-
-
-	#products {
-		height: 300px;
-	}
-	.products_inner {
-		padding-top: 50px;
-		display: inline-block;
-		width: 32%;
-		height: 100%;
-	}
-
-	.products_image {
-		width: 120px;
-		height: 120px;
-	}
+                                                .thumbnail_holder {
+                                                    position: absolute;
+                                                    height: 100%;
+                                                    width: 100%;
+                                                    display: flex;
+                                                    align-items: center;
+                                                }
 
 
-	.brand-heading {
-		position: relative;
-		top: 12%;
-		left: 5%;
-		max-width: 75%;
-	}
 
-	#logopic {
-		position: relative;
-		margin: auto;
-		left: -20%;
-		max-width: 50%;
-	}
+    #products {
+        height: 300px;
+    }
+    .products_inner {
+        padding-top: 50px;
+        display: inline-block;
+        width: 32%;
+        height: 100%;
+    }
 
-	.main-header {
-		position: fixed;
-		background: #fff;
-		box-shadow: 0 1px 4px rgba(0,0,0,.4);
-		width: 100%;
-		top: 0;
-		z-index: 1000;
-	}
+    .products_image {
+        width: 120px;
+        height: 120px;
+    }
 
-	.container {
-		width: 90%;
-		margin: 0 auto;
-	}
 
-	.name,
-	.col {
-		float: left;
-	}
+    .brand-heading {
+        position: relative;
+        top: 12%;
+        left: 5%;
+        max-width: 75%;
+    }
 
-	.main-nav {
-		float: right;
-	}
+    #logopic {
+        position: relative;
+        margin: auto;
+        left: -20%;
+        max-width: 50%;
+    }
 
-	.main-nav li {
-		display: inline-block;
-		margin-left: 15px;
-	}
+    .main-header {
+        position: fixed;
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0,0,0,.4);
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
 
-	.tagline {
-		font-size: 1.4em;
-	}
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
 
-	.contact_column {
-		display: inline-block;
-		width: 30%;
-		padding-bottom: 50px;
-	}
+    .name,
+    .col {
+        float: left;
+    }
 
-	/* ---- Float clearfix ---- */
+    .main-nav {
+        float: right;
+    }
 
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
+    .main-nav li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .tagline {
+        font-size: 1.4em;
+    }
+
+    .contact_column {
+        display: inline-block;
+        width: 30%;
+        padding-bottom: 50px;
+    }
+
+    /* ---- Float clearfix ---- */
+
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
 
 }
 
 
 @media (min-width: 850px) {
-	.products_image {
-		width: 180px;
-		height: 180px;
-	}
+    .products_image {
+        width: 180px;
+        height: 180px;
+    }
 }
 
 @media (min-width: 1025px) {
 
-	.container {
-		width: 80%;
-		max-width: 1150px;
-	}
+    .container {
+        width: 80%;
+        max-width: 1150px;
+    }
 
 
 
