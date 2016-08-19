@@ -59,7 +59,7 @@ jQuery(document).ready(function ($) {
       $SlideDuration: 1600,
       $SlideEasing: $Jease$.$Linear,
       $PauseOnHover: 4,
-      $SlideWidth: 200,
+      $SlideWidth: 180,
       $Cols: 7,
     };
 

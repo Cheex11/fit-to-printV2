@@ -282,7 +282,7 @@ figcaption {
 #bottom_holder_holder {
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: -55px;
 }
 #jssor_2 {
     transform: rotateY(-180deg);
