@@ -86,8 +86,8 @@ jQuery(document).ready(function ($) {
     //you can remove responsive code if you don't want the slider scales while window resizing
     function ScaleSlider() {
         var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+        var divSize = refSize
 
-        console.log(refSize)
 
         if (refSize < 725) {
         	refSize = 725
@@ -97,6 +97,8 @@ jQuery(document).ready(function ($) {
             refSize = Math.min(refSize, 809);
             jssor_1_slider.$ScaleWidth(refSize);
             jssor_2_slider.$ScaleWidth(refSize);
+            $('#jssor_1').width(divSize);
+            $('#jssor_2').width(divSize);
         }
         else {
             window.setTimeout(ScaleSlider, 30);

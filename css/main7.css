@@ -260,6 +260,22 @@ figcaption {
     top: 40%;
 }
 
+#jssor-container-top {
+    /*background-color: red;*/
+}
+
+#jssor-container-bottom {
+    /*background-color: blue;*/
+
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+}
+
+#jssor_1 img, #jssor_2 img {
+    padding-left: 10px;
+}
+
 .client_box {
     position: relative;
     display: inline-block;
@@ -281,11 +297,6 @@ figcaption {
     text-align: center;
 }
 
-#bottom_holder_holder {
-    width: 100%;
-    position: absolute;
-    bottom: -55px;
-}
 #jssor_2 {
     transform: rotateY(-180deg);
 }
