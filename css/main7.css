@@ -21,7 +21,6 @@ body {
 p {
     font-size: .95em;
     margin-bottom: 1.8em;
-    max-width: 900px;
 }
 
 h2,
@@ -169,7 +168,7 @@ figcaption {
     color: white;
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -207,11 +206,12 @@ figcaption {
 #products {
     text-align: center;
     background-color: #00457c;
-    height: 500px;
+    height: 520px;
 }
 
 #products h4 {
     color: white;
+    font-size: 30px;
     padding-top: 0px;
     margin-top: 0px;
 }
@@ -234,9 +234,11 @@ figcaption {
 }
 
 #clients {
-    height: 500px;
+    height: 450px;
     position: relative;
 }
+
+
 
 #clients_holder {
     white-space: nowrap;
@@ -254,8 +256,8 @@ figcaption {
     position: absolute;
     text-align: center;
     width: 100%;
-    font-size: 48px;
-    top: 42%;
+    font-size: 60px;
+    top: 40%;
 }
 
 .client_box {
@@ -292,7 +294,7 @@ figcaption {
     position: relative;
     height: 400px;
     background-image: url("../img/weknodal.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -315,6 +317,9 @@ figcaption {
 }
 .wp6 {
     background-image: url("../img/ftp/Catalog/Parade.jpg");
+}
+.wp8 {
+    background-image: url("../img/ftp/Postcards/Affair.jpg");
 }
 
                     .portfolio {
@@ -446,6 +451,11 @@ figcaption {
     }
 
 
+
+.large_copy {
+    font-size: 25px;
+}
+
     #intro_bottom_topper {
         color: white;
         position: absolute;
@@ -463,6 +473,10 @@ figcaption {
         display: none;
     }
 
+
+    #dallas {
+        display: block;
+    }
 
     .main-nav a {
         color: #00457c;
@@ -644,7 +658,7 @@ figcaption {
 
 
 /*Waypoints*/
-.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7 { visibility: hidden; }
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
