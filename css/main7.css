@@ -261,6 +261,9 @@ figcaption {
 }
 
 #jssor-container-top {
+    position: relative;
+    height: 180px;
+    width: 100%;
     /*background-color: red;*/
 }
 
@@ -275,6 +278,7 @@ figcaption {
 #jssor_1 img, #jssor_2 img {
     padding-left: 10px;
 }
+
 
 .client_box {
     position: relative;
@@ -380,7 +384,7 @@ figcaption {
 
                     .portfolio_square_thumbnail_row {
                         width: 100%;
-                        heightm: 100%;
+                        height: 100%;
                         position: relative;
                     }
 
@@ -445,6 +449,10 @@ figcaption {
     color: white;
 }
 
+#certification {
+    max-width: 80%;
+    height: auto;
+}
 
 
 /* =================================
@@ -652,23 +660,52 @@ figcaption {
 
 }
 
-
+/*Terrible work around for JSSOR slider which scales DIV dynamically*/
 @media (min-width: 850px) {
     .products_image {
         width: 180px;
         height: 180px;
     }
+    #jssor_1 {
+        left: 5% !important;
+    }
+    #jssor_2 {
+        left: -5% !important;
+    }
+}
+
+@media (min-width: 900px) {
+    #jssor_1 {
+        left: 10% !important;
+    }
+    #jssor_2 {
+        left: -10% !important;
+    }
+}
+
+@media (min-width: 1100px) {
+    #jssor_1 {
+        left: 15% !important;
+    }
+    #jssor_2 {
+        left: -15% !important;
+    }
+}
+
+@media (min-width: 1300px) {
+    #jssor_1 {
+        left: 20% !important;
+    }
+    #jssor_2 {
+        left: -20% !important;
+    }
 }
 
 @media (min-width: 1025px) {
-
     .container {
         width: 80%;
         max-width: 1150px;
     }
-
-
-
 }
 
 
