@@ -692,12 +692,30 @@ figcaption {
     }
 }
 
+@media (min-width: 1200px) {
+    #jssor_1 {
+        left: 18% !important;
+    }
+    #jssor_2 {
+        left: -18% !important;
+    }
+}
+
 @media (min-width: 1300px) {
     #jssor_1 {
         left: 20% !important;
     }
     #jssor_2 {
         left: -20% !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    #jssor_1 {
+        left: 30% !important;
+    }
+    #jssor_2 {
+        left: -30% !important;
     }
 }
 
