@@ -309,10 +309,11 @@ figcaption {
     position: relative;
     height: 400px;
     background-image: url("../img/weknodal.jpg");
-    background-size: cover;
-    background-position:center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: right 0px top -110px;
+    /*background-size: cover;*/
+    /*background-position:center center;*/
+    /*background-attachment: fixed;*/
 }
 
 #dallas_text {
@@ -492,9 +493,9 @@ figcaption {
         display: none;
     }
 
-
     #dallas {
-        display: block;
+        background-size: cover;
+        background-position:center center;
     }
 
     .main-nav a {
