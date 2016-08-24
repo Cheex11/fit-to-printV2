@@ -496,6 +496,8 @@ figcaption {
     #dallas {
         background-size: cover;
         background-position:center center;
+        background-attachment: fixed;
+
     }
 
     .main-nav a {
