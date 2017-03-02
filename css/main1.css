@@ -1,0 +1,60 @@
+#base {
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  background-color: #3F6D9C;
+}
+
+#main-container {
+  margin: 0 auto;
+  background-color: white;
+  max-width: 1200px;
+  border-radius: 25px;
+}
+
+#splash {
+  position: relative;
+  min-height: 600px;
+  width: 100%;
+}
+
+#splash #biz_name {
+  opacity: 0;
+  font-size: 48px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: scale(.88) translate(-50%, -50%);
+  transform-origin: 0 0;
+  transition: all 8s;
+}
+
+.grow {
+  opacity: 1 !important;
+  transform: translate(-50%, -50%) scale(1.05) !important;
+}
+
+#logo-magenta {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 25px;
+}
+
+#logo-blue {
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.icons {
+  display: inline-flex;
+}
+
+.icons .icon {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
